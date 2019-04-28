@@ -219,7 +219,7 @@ collection.delete_many(
 
    MongoDB 排序 sort({})
 
-   ```json
+   ```mongo
    db.getcollection('example_data_2').find({"grade":true}).sort({'age':-1})
    ```
 
@@ -238,7 +238,7 @@ collection.delete_many(
 
    MongoDB 查询 _id
 
-   ```json
+   ```mongo
    db.getcollection('example_data_2').find({'_id':ObjectId("5cc2e08a861b6be6c1367133")})
    ```
 
