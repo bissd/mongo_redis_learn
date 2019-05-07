@@ -24,6 +24,7 @@ pom.xml.asc
 *.ipr
 *.iws
 .idea/
+.idea
 classes/
 
 # eclipse
